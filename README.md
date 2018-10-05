@@ -1,1 +1,1 @@
-# spaceCadetsChallanges
+# Space Cadet Challenge 1
