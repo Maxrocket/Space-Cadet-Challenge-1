@@ -14,7 +14,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.TimeZone;
 
-public class DefaultState extends State {
+public class MainState extends State {
 
     private UIManager uiManager;
     private double scale = 1.5;
@@ -22,7 +22,7 @@ public class DefaultState extends State {
     private ArrayList<Circle> circles;
     private ArrayList<Point> pointsToCheck;
 
-    public DefaultState(final Handler handler) {
+    public MainState(final Handler handler) {
         super(handler);
         uiManager = new UIManager(handler);
         handler.getMouseManager().setUIManager(uiManager);
